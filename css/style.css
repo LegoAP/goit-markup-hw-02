@@ -161,11 +161,7 @@ address {
     text-transform: capitalize;
 }
 
-.card-people-plate {
-    background-color: #FFFFFF;
-}
-
-.people-name {
+.card-people-name {
     color: #2E2F42;
     background-color: #FFFFFF;
     text-align: center;
@@ -175,7 +171,7 @@ address {
     letter-spacing: 0.02em;
 }
 
-.people-skils {
+.card-people-skils {
     color: #434455;
     text-align: center;
     font-size: 16px;
