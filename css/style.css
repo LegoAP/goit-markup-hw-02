@@ -1,7 +1,7 @@
 body {
-    background-color: FFFFFF;
+    background-color: #FFFFFF;
     color: #434455;
-    font-family: "Roboto" sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 18px;
 }
 
@@ -22,7 +22,21 @@ button {
 }
 
 /* ================= HEADER =================*/
+address {
+    font-style: normal;
+}
+
 .logotype {
+    color: #4d5ae5;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.logotype-span {
     color: #2E2F42;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
@@ -32,15 +46,6 @@ button {
     text-transform: uppercase;
 }
 
-.logotype-span {
-    color: #4D5AE5;
-    font-family: 'Raleway', sans-serif;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 1.16;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-}
 
 .menu-link {
     color: #2E2F42;
@@ -64,10 +69,15 @@ button {
     text-decoration: none;
 }
 
-.mail-tel:hover,
-.mail-tel:focus,
+.info-mail:hover,
+.ifo-mail:focus,
 {
 color: #404BBF;
+}
+
+.info-tel:hover,
+.info-tel:focus {
+    color: #404BBF;
 }
 
 .mail-tel {
@@ -76,7 +86,8 @@ color: #404BBF;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    font-style: normal;
+    vscode-file: //vscode-app/c:/Users/lenovo/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/code/electron-sandbox/workbench/workbench.html
+        font-style: normal;
     text-decoration: none;
 }
 
@@ -102,13 +113,23 @@ color: #404BBF;
 
 .heroy-service {
     display: inline-flex;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
     padding: 16px 32px;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     align-items: flex-start;
     gap: 10px;
     border-radius: 4px;
     background: #4D5AE5;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     color: white;
+}
+
+.heroy-service:hover,
+.heroy-service:focus {
+    background-color: #404BBF;
 }
 
 
@@ -163,7 +184,7 @@ color: #404BBF;
     text-align: center;
     font-size: 36px;
     font-weight: 700;
-    line-height: 1.11;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     text-transform: capitalize;
 }
@@ -194,7 +215,7 @@ color: #404BBF;
     text-align: center;
     font-size: 16px;
     font-weight: 400;
-    line-height: 0.6;
+    line-height: 1.2;
     letter-spacing: 0.02em;
 }
 
@@ -227,3 +248,34 @@ color: #404BBF;
 }
 
 /*================= /PORTFOLIO ==========================*/
+
+
+/*================= FOOTER ======================*/
+.end-page {
+    background-color: #2e2f42;
+}
+
+.logotype-end {
+    color: #4D5AE5;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.logotype-span-end {
+    color: #f4f4fd;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+
+
+
+
+/*================= /FOOTER ======================*/
