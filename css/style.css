@@ -69,16 +69,6 @@ address {
     text-decoration: none;
 }
 
-.info-mail:hover,
-.ifo-mail:focus,
-{
-color: #404BBF;
-}
-
-.info-tel:hover,
-.info-tel:focus {
-    color: #404BBF;
-}
 
 .mail-tel {
     color: #434455;
@@ -86,10 +76,16 @@ color: #404BBF;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    vscode-file: //vscode-app/c:/Users/lenovo/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/code/electron-sandbox/workbench/workbench.html
-        font-style: normal;
+    font-style: normal;
     text-decoration: none;
 }
+
+.mail-tel:hover,
+.mail-tel:focus {
+    color: #404bbf;
+}
+
+
 
 /* ================= /HEADER =================*/
 
@@ -184,20 +180,9 @@ color: #404BBF;
     text-align: center;
     font-size: 36px;
     font-weight: 700;
-    line-height: 1.2;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-}
-
-.mark {
-    border-radius: 0px 0px 4px 4px;
-    background: var(--WHITE, #FFF);
-    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08) display: inline-flex;
-    padding-bottom: 0px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 32px;
 }
 
 
@@ -223,6 +208,10 @@ color: #404BBF;
 
 
 /*================= PORTFOLIO ==========================*/
+.header-portfolio {
+    line-height: 1.11;
+}
+
 .portfolio-name {
     color: #2E2F42;
     font-size: 20px;
@@ -257,6 +246,7 @@ color: #404BBF;
 
 .logotype-end {
     color: #4D5AE5;
+    font-family: "Raleway", sans-serif;
     font-family: Raleway;
     font-size: 18px;
     font-weight: 700;
