@@ -91,9 +91,6 @@ address {
 
 /*================ HEROY ================*/
 .heroy {
-    width: 1440px;
-    height: 600px;
-    flex-shrink: 0;
     background: #2E2F42;
 }
 
@@ -121,21 +118,12 @@ address {
     background-color: #404BBF;
 }
 
-
-
-
-
-
-
 /*================ /HEROY ================*/
+
 
 /*================= TITLE =================*/
 .title {
     font-family: "Roboto" sans-serif;
-}
-
-.title-menu-link {
-    display: flex;
 }
 
 .title-menu-name {
@@ -160,12 +148,11 @@ address {
 
 /*================= CADR =================== */
 .card {
-    background: #F4F4FD;
+    background-color: #FFFFFF;
 }
 
 .header {
     color: #2E2F42;
-    background-color: #FFFFFF;
     text-align: center;
     font-size: 36px;
     font-weight: 700;
@@ -231,7 +218,6 @@ address {
 /*================= FOOTER ======================*/
 .end-page {
     background-color: #2e2f42;
-    font-family: "Raleway", sans-serif;
 }
 
 .logotype-end {
@@ -246,7 +232,6 @@ address {
 
 .logotype-span-end {
     color: #f4f4fd;
-    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
