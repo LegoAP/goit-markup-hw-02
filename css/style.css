@@ -148,7 +148,7 @@ address {
 
 /*================= CADR =================== */
 .card {
-    background-color: #FFFFFF;
+    background-color: #F4F4FD;
 }
 
 .header {
@@ -159,6 +159,10 @@ address {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+}
+
+.card-people-plate {
+    background-color: #FFFFFF;
 }
 
 .people-name {
