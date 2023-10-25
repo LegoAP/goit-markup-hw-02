@@ -176,6 +176,7 @@ address {
 
 .people-name {
     color: #2E2F42;
+    background-color: #FFFFFF;
     text-align: center;
     font-size: 20px;
     font-weight: 500;
@@ -235,7 +236,7 @@ address {
 
 .logotype-end {
     color: #4D5AE5;
-    font-family: Raleway;
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
@@ -245,6 +246,7 @@ address {
 
 .logotype-span-end {
     color: #f4f4fd;
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
